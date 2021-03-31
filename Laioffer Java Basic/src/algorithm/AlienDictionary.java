@@ -10,6 +10,7 @@ public class AlienDictionary {
         for (String word : words) {
             for (Character c : word.toCharArray()) {
                 inDegreeCount.put(c, 0);
+                inDegreeCount.put(c, 0);
                 adjacentList.put(c, new ArrayList<>());
             }
         }

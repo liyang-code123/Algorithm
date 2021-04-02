@@ -125,3 +125,45 @@ public class SevenPuzzle {
         System.out.println(sevenPuzzle.numOfSteps(values));
     }
 }
+
+// Solution 2
+/*
+public class Solution {
+ private static final int[] d = { 1, -1, 4, -4 };
+ public int numOfSteps(int[] values) {
+   // Write your solution here
+   StringBuilder sb = new StringBuilder();
+   for (int v : values) {
+     sb.append(v);
+   }
+   String s = new String(sb);
+   Queue<String> q = new LinkedList<>();
+   q.offer(s);
+   Set<String> seen = new HashSet<>();
+   seen.add(s);
+   int ans = 0;
+   while (!q.isEmpty()) {
+     int size = q.size();
+     while (size-- > 0) {
+       String str = q.poll();
+       if (str.equals("01234567")) return ans;
+       int i = str.indexOf("0");
+       for (int k = 0; k < 4; k++) {
+         int j = i + d[k];
+         if (j < 0 || j > 7 || i == 3 && j == 4 || i == 4 && j == 3) continue;
+         char[] ch = str.toCharArray();
+         ch[i] = ch[j];
+         ch[j] = '0';
+         String nei = new String(ch);
+         if (!seen.contains(nei)) {
+           seen.add(nei);
+           q.offer(nei);
+         }
+       }
+     }
+     ans++;
+   }
+   return -1;
+ }
+}
+ */

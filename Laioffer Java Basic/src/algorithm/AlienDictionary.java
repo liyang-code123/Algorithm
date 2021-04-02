@@ -25,7 +25,7 @@ public class AlienDictionary {
 
             for (int j = 0; i < Math.min(word1.length(), word2.length()); j++) {
                 if (word1.charAt(j) != word2.charAt(j)) {
-                    adjacentList.get(word1.charAt(j)).add(word2.charAt(j)));
+                    adjacentList.get(word1.charAt(j)).add(word2.charAt(j));
                     inDegreeCount.put(word2.charAt(j), inDegreeCount.get(word2.charAt(j)) + 1);
                     break;
                 }

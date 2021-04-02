@@ -71,7 +71,7 @@ public class SynchronizedHashMap<K, V> {
             int index = getIndex(hash(key));
             Node<K, V> cur = array[index];
             while (cur != null) {
-                if (equalsKey()cur.key, key) {
+                if (equalsKey(cur.key, key)) {
                     V result = cur.value;
                     cur.value = value;
                     return result;
@@ -160,4 +160,3 @@ public class SynchronizedHashMap<K, V> {
             return null;
         }
     }
-}

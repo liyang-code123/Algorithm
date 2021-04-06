@@ -10,16 +10,17 @@ public class LongestAscendingSubsequence {
         int globalMax = 1;
 
         for (int i = 1; i < array.length; i++) {
-            if (array[i] > array[i - 1]) {
-                dp[i] = dp[i - 1] + 1;
-            } else {
-                for (int j = i - 1; j >= 0; j--) {
+            dp[i] = 1;
+            // this is wrong code... because dp[i] should be inherited from its previous max. not dp[i - 1]
+//            if (array[i] > array[ i - 1]) {
+//                dp[i] = dp[i - 1] + 1;
+//            } else {
+                for (int j = 0; j < i; j++) {
                     if (array[i] > array[j]) {
-                        dp[i] = dp[j] + 1;
-                        System.out.println(dp[i]);
+                        dp[i] = Math.max(dp[j] + 1, dp[i]);
                     }
                 }
-            }
+//            }
             globalMax = Math.max(globalMax, dp[i]);
         }
         return globalMax;

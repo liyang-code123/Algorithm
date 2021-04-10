@@ -28,7 +28,7 @@ public class UnionFind {
     public static void main(String[] args) {
         UnionFind uf = new UnionFind();
         int a = 5;
-        int[][] b = new int[][]{(0, 1), (1, 2), (3, 4)};
+        int[][] b = {{0, 1}, {1, 2}, {3, 4}};
         System.out.println(uf.unionFind(a, b));
     }
 }

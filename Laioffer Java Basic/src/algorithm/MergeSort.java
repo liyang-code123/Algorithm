@@ -1,5 +1,6 @@
 package algorithm;
 
+//LaiCode 9
 public class MergeSort {
     public int[] mergeSort(int[] array) {
         if (array == null || array.length == 0) return array;

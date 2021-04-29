@@ -27,6 +27,8 @@ public class SelectionSort {
     public static void main (String[] args) {
         SelectionSort sort = new SelectionSort();
         int[] array = new int[]{3, 4, 5, 7, 1, 2};
-        System.out.println(sort.selectionSort(array));
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(sort.selectionSort(array)[i]);
+        }
     }
 }

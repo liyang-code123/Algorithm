@@ -38,6 +38,8 @@ public class MergeSort {
     public static void main (String[] args) {
         MergeSort ms = new MergeSort();
         int[] array = new int[]{3, 4, 5, 7, 2, 1, 0};
-        System.out.println(ms.mergeSort(array));
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(ms.mergeSort(array)[i]);
+        }
     }
 }

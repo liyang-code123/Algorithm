@@ -28,6 +28,8 @@ public class RainbowSort26 {
         RainbowSort26 test = new RainbowSort26();
         int[] array = {1, 2, 1, 3, 4, 5, 6, 1, 2, 7, 7, 8, 3, 9};
         int k = 9;
-        System.out.println(test.rainbowSort26(array, k));
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(test.rainbowSort26(array, k)[i]);
+        }
     }
 }

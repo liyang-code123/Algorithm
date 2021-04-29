@@ -1,7 +1,6 @@
 package algorithm;
 
-import java.util.List;
-
+// LaiCode 414
 public class RemoveLinkedListElements {
     static class ListNode {
         ListNode next;
@@ -44,6 +43,11 @@ public class RemoveLinkedListElements {
         d.next = e;
         e.next = f;
         int val = 5;
-        System.out.println(test.removeElement(a, val));
+        System.out.println(test.removeElement(a, val).next.value);
+//        ListNode cur = a;
+//        while(cur != null){
+//            System.out.println(cur.value);
+//            cur = cur.next;
+//        }
     }
 }

@@ -7,24 +7,24 @@ public class QueueWithTwoStacks {
     Deque<Integer> stack1 = new ArrayDeque<>();
     Deque<Integer> stack2 = new ArrayDeque<>();
 
-    public int size() {
-
-    }
-
-    public boolean isEmpty() {
-
-    }
-
-    public void offer() {
-
-    }
-
-    public void pop() {
-
-    }
-
-    public void peek(){
-
-    }
+//    public int size() {
+//
+//    }
+//
+//    public boolean isEmpty() {
+//
+//    }
+//
+//    public void offer() {
+//
+//    }
+//
+//    public void pop() {
+//
+//    }
+//
+//    public void peek(){
+//
+//    }
 
 }

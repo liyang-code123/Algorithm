@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+
+// LeetCode 56
 public class MergeIntervals {
     public int[][] mergeIntervals(int[][] intervals) {
         List<int[]> result = new ArrayList<>();

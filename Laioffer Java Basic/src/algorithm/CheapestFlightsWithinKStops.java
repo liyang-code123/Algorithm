@@ -1,11 +1,20 @@
 package algorithm;
 
-import jdk.internal.net.http.common.Pair;
+//import jdk.internal.net.http.common.Pair;
 
 import java.util.HashMap;
 
 // LeetCode 787
 public class CheapestFlightsWithinKStops {
+    class Pair<I extends Number, I1 extends Number> {
+        Integer a;
+        Integer b;
+
+        public Pair(int a, int b) {
+            this.a = a;
+            this.b = b;
+        }
+    }
     private int[][] adjMatrix;
     private HashMap<Pair<Integer, Integer>, Long> memo;
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {

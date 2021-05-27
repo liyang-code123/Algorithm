@@ -27,10 +27,37 @@ public class BasicCalculatorIII {
                 ops.pop();
             } else if (c == '+' || c == '-' || c == '*' || c == '/') {
                 while (!ops.isEmpty() && precedent(c, ops.peek())) {
-
+                    nums.push(operations(ops.pop(), nums.pop(), nums.pop()));
                 }
+                ops.push(c);
             }
-
         }
+
+        while (!ops.isEmpty()) {
+            nums.push(operations(ops.pop(), nums.pop(), nums.pop()));
+        }
+        return nums.pop();
+    }
+
+    private int operations (char c, int a, int b) {
+        switch(c) {
+            case '+' : return b + a;
+            case '-' : return b - a;
+            case '*' : return b * a;
+            case '/' : return b / a;
+        }
+        return 0;
+    }
+
+    private boolean precedent(char c1, char c2) {
+        if (c2 == '(') return false;
+        if ((c1 == '*' || c1 == '/') && (c2 == '+' || c2 =='-')) return false;
+        return true;
+    }
+
+    public static void main (String[] args) {
+        BasicCalculatorIII test = new BasicCalculatorIII();
+        String s = "2*(5+5*2)/3+(6/2+8)";
+        System.out.println(test.basicCalculatorIII(s));
     }
 }

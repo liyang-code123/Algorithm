@@ -2,56 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e288a93-c449-44fb-bd79-58e17f51916c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/AlienDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/AlienDictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/AllNodesDistanceKinBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/AllNodesDistanceKinBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/AnalyzeUserWebsiteVisitPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/AnalyzeUserWebsiteVisitPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/ArrayHopper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/ArrayHopper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/ArrayHopperII.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/ArrayHopperII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/AsteroidCollision.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/AsteroidCollision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/BasicCalculatorIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/BasicCalculatorIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/BinaryTreePathSumToTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/BinaryTreePathSumToTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/CheapestFlightsWithinKStops.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/CheapestFlightsWithinKStops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/ClassicalBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/ClassicalBinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/ClosestInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/ClosestInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/CombinationDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/CombinationDFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/CycleProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/CycleProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/DeepCopyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/DeepCopyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/DeepCopyLinkedList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/DeepCopyLinkedList2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/EmployeeImportance.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/EmployeeImportance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/FourSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/GoodNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/GoodNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/GymEquipmentChair.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/GymEquipmentChair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/InorderSuccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/InorderSuccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/LeastRecentlyUsed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/LeastRecentlyUsed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/LongestAscendingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/LongestAscendingSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/LongestCommonSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/LongestCommonSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/LongestSubstringOfAllVowelsInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/LongestSubstringOfAllVowelsInOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/LowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/LowestCommonAncestor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/MaxPathSumFromAnyToAny.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/MaxPathSumFromAnyToAny.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/MaxPathSumFromLeafToLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/MaxPathSumFromLeafToLeaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/MaxPathSumFromLeafToRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/MaxPathSumFromLeafToRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/MaxPathSumOnSubPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/MaxPathSumOnSubPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/MergeIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/MinimumDistanceToTargetElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/MinimumDistanceToTargetElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/MinimumKnightMoves.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/MinimumKnightMoves.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/QueueWithTwoStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/QueueWithTwoStacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/RainbowSort26.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/RainbowSort26.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/ReconstructTreePostorderBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/ReconstructTreePostorderBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/ReconstructTreePreorderInorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/ReconstructTreePreorderInorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/RemoveLinkedListElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/RemoveLinkedListElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/ReverseLinkedListRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/ReverseLinkedListRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/SearchInSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/SearchInSortedMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/SevenPuzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/SevenPuzzle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/SubdomainVisitCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/SubdomainVisitCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/UnionFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/UnionFindII.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/UnionFindII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/WordLetterOnePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/WordLetterOnePath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/algorithm/WordLetterTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/WordLetterTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +89,7 @@
       <updated>1622183242426</updated>
       <workItem from="1622183244401" duration="50000" />
       <workItem from="1622183298530" duration="123000" />
-      <workItem from="1622183466184" duration="748000" />
+      <workItem from="1622183466184" duration="1917000" />
     </task>
     <servers />
   </component>

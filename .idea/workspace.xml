@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e288a93-c449-44fb-bd79-58e17f51916c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/PaintHouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/PaintHouse.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
       <recent name="$PROJECT_DIR$/Laioffer Java Basic/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PaintHouse">
+  <component name="RunManager" selected="Application.MinHeap">
     <configuration name="ArrayHopperII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.ArrayHopperII" />
       <module name="Algorithm" />
@@ -54,6 +55,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinHeap" />
+      <module name="Algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaintHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PaintHouse" />
       <module name="Algorithm" />
@@ -61,19 +69,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinHeap" />
         <item itemvalue="Application.PaintHouse" />
         <item itemvalue="Application.ArrayHopperII" />
       </list>
@@ -89,7 +100,8 @@
       <updated>1622183242426</updated>
       <workItem from="1622183244401" duration="50000" />
       <workItem from="1622183298530" duration="123000" />
-      <workItem from="1622183466184" duration="3505000" />
+      <workItem from="1622183466184" duration="4761000" />
+      <workItem from="1622334369507" duration="4849000" />
     </task>
     <servers />
   </component>

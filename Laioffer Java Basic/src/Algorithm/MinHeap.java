@@ -4,7 +4,7 @@ import java.util.NoSuchElementException;
 public class MinHeap {
 
     int[] array;
-    int size;
+    int size; // array's size.
 
     public MinHeap(int[] array, int size) {
         this.array = array;
@@ -12,6 +12,8 @@ public class MinHeap {
         heapify();
     }
 
+
+    // percolateUp and percolateDown APIs are used for the condition that the heap is already constructed.
     public void percolateUp(int index) {
         while (index > 0) {
             int parentIndex = (index - 1) / 2;
@@ -86,6 +88,11 @@ public class MinHeap {
         if (size == 0) return true;
         return false;
     }
+
+    public int size() {
+        return size;
+    }
+
     public void swap (int[] array, int a, int b) {
         int tmp = array[a];
         array[a] = array[b];

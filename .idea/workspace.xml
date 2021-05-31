@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4e288a93-c449-44fb-bd79-58e17f51916c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/Sudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/Sudoku.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Sudoku.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Sudoku.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/MinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/MinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/MaxSumOfRectangleNoLargerThanK.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MaxSumOfRectangleNoLargerThanK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/MinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MinHeap.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +43,10 @@
       <recent name="$PROJECT_DIR$/Laioffer Java Basic/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxSumOfRectangleNoLargerThanK">
-    <configuration name="ArrayHopperII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.ArrayHopperII" />
+  <component name="RunManager" selected="Application.NumberOfIslands">
+    <configuration name="FirstUniqueNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstUniqueNumber" />
       <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaintHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PaintHouse" />
+    <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumberOfIslands" />
       <module name="Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfIslands" />
+        <item itemvalue="Application.FirstUniqueNumber" />
         <item itemvalue="Application.MaxSumOfRectangleNoLargerThanK" />
         <item itemvalue="Application.Sudoku" />
         <item itemvalue="Application.MinHeap" />
-        <item itemvalue="Application.PaintHouse" />
-        <item itemvalue="Application.ArrayHopperII" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +113,9 @@
       <workItem from="1622183244401" duration="50000" />
       <workItem from="1622183298530" duration="123000" />
       <workItem from="1622183466184" duration="4761000" />
-      <workItem from="1622334369507" duration="9041000" />
+      <workItem from="1622334369507" duration="12115000" />
+      <workItem from="1622423265483" duration="3467000" />
+      <workItem from="1622445687529" duration="673000" />
     </task>
     <servers />
   </component>

@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4e288a93-c449-44fb-bd79-58e17f51916c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/MinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laioffer Java Basic/src/Algorithm/MinHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/MaxSumOfRectangleNoLargerThanK.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MaxSumOfRectangleNoLargerThanK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/MinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MinHeap.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,14 @@
       <recent name="$PROJECT_DIR$/Laioffer Java Basic/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberOfIslands">
+  <component name="RunManager" selected="Application.MeetingRoomII">
+    <configuration name="CompareVersionNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompareVersionNumbers" />
+      <module name="Algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstUniqueNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstUniqueNumber" />
       <module name="Algorithm" />
@@ -51,15 +55,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSumOfRectangleNoLargerThanK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxSumOfRectangleNoLargerThanK" />
+    <configuration name="MeetingRoomI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MeetingRoomI" />
       <module name="Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MinHeap" />
+    <configuration name="MeetingRoomII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MeetingRoomII" />
       <module name="Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,33 +76,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sudoku" />
-      <module name="Algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MeetingRoomII" />
+        <item itemvalue="Application.MeetingRoomI" />
+        <item itemvalue="Application.CompareVersionNumbers" />
         <item itemvalue="Application.NumberOfIslands" />
         <item itemvalue="Application.FirstUniqueNumber" />
-        <item itemvalue="Application.MaxSumOfRectangleNoLargerThanK" />
-        <item itemvalue="Application.Sudoku" />
-        <item itemvalue="Application.MinHeap" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +110,8 @@
       <workItem from="1622183466184" duration="4761000" />
       <workItem from="1622334369507" duration="12115000" />
       <workItem from="1622423265483" duration="3467000" />
-      <workItem from="1622445687529" duration="673000" />
+      <workItem from="1622445687529" duration="867000" />
+      <workItem from="1622485818418" duration="3108000" />
     </task>
     <servers />
   </component>

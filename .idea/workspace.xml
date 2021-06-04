@@ -40,16 +40,16 @@
       <recent name="$PROJECT_DIR$/Laioffer Java Basic/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MeetingRoomII">
-    <configuration name="CompareVersionNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompareVersionNumbers" />
+  <component name="RunManager" selected="Application.PalindromicSubstrings">
+    <configuration name="LetterCombinationsOfAPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LetterCombinationsOfAPhoneNumber" />
       <module name="Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstUniqueNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstUniqueNumber" />
+    <configuration name="MaximumSideLengthOfaSquareWithSumLessOrEqualToThreshold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximumSideLengthOfaSquareWithSumLessOrEqualToThreshold" />
       <module name="Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberOfIslands" />
+    <configuration name="PalindromicSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PalindromicSubstrings" />
       <module name="Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromicSubstrings" />
+        <item itemvalue="Application.LetterCombinationsOfAPhoneNumber" />
+        <item itemvalue="Application.MaximumSideLengthOfaSquareWithSumLessOrEqualToThreshold" />
         <item itemvalue="Application.MeetingRoomII" />
         <item itemvalue="Application.MeetingRoomI" />
-        <item itemvalue="Application.CompareVersionNumbers" />
-        <item itemvalue="Application.NumberOfIslands" />
-        <item itemvalue="Application.FirstUniqueNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +111,9 @@
       <workItem from="1622334369507" duration="12115000" />
       <workItem from="1622423265483" duration="3467000" />
       <workItem from="1622445687529" duration="867000" />
-      <workItem from="1622485818418" duration="3108000" />
+      <workItem from="1622485818418" duration="4931000" />
+      <workItem from="1622663802939" duration="1966000" />
+      <workItem from="1622784684991" duration="3585000" />
     </task>
     <servers />
   </component>

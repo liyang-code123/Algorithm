@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e288a93-c449-44fb-bd79-58e17f51916c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/PalindromicSubstrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/PalindromicSubstrings.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,14 @@
       <recent name="$PROJECT_DIR$/Laioffer Java Basic/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PalindromicSubstrings">
+  <component name="RunManager" selected="Application.CountNumberOfNiceSubarrays">
+    <configuration name="CountNumberOfNiceSubarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountNumberOfNiceSubarrays" />
+      <module name="Algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LetterCombinationsOfAPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LetterCombinationsOfAPhoneNumber" />
       <module name="Algorithm" />
@@ -50,13 +58,6 @@
     </configuration>
     <configuration name="MaximumSideLengthOfaSquareWithSumLessOrEqualToThreshold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MaximumSideLengthOfaSquareWithSumLessOrEqualToThreshold" />
-      <module name="Algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MeetingRoomI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MeetingRoomI" />
       <module name="Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,24 +77,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountNumberOfNiceSubarrays" />
         <item itemvalue="Application.PalindromicSubstrings" />
         <item itemvalue="Application.LetterCombinationsOfAPhoneNumber" />
         <item itemvalue="Application.MaximumSideLengthOfaSquareWithSumLessOrEqualToThreshold" />
         <item itemvalue="Application.MeetingRoomII" />
-        <item itemvalue="Application.MeetingRoomI" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +116,8 @@
       <workItem from="1622445687529" duration="867000" />
       <workItem from="1622485818418" duration="4931000" />
       <workItem from="1622663802939" duration="1966000" />
-      <workItem from="1622784684991" duration="3585000" />
+      <workItem from="1622784684991" duration="4215000" />
+      <workItem from="1622866812138" duration="2448000" />
     </task>
     <servers />
   </component>

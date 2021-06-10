@@ -1,0 +1,9 @@
+bin
+bin/
+.DS_Store
+.DS_Store/
+.project
+.project/
+.idea
+.idea/
+

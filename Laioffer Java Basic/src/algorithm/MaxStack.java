@@ -30,11 +30,11 @@ public class MaxStack {
         return stack.peek();
     }
 
-    public int popMax() {
+    public int peekMax() {
         return maxStack.peek();
     }
 
-    public int topMax() {
+    public int popMax() {
         int max = maxStack.pop();
         Deque<Integer> temp = new ArrayDeque<>();
         while(top() != max) {
@@ -48,11 +48,16 @@ public class MaxStack {
         return max;
     }
 
-//    public static void main(String[] args) {
-//        MaxStack test = new MaxStack();
-//        stack.push(5);
-//        stack.push(1);
-//        stack.push(5);
-//        System.out.println(stack.top());
-//    }
+    public static void main(String[] args) {
+        MaxStack test = new MaxStack();
+        test.push(5);
+        test.push(1);
+        test.push(5);
+        System.out.println(test.top());
+        System.out.println(test.popMax());
+        System.out.println(test.top());
+        System.out.println(test.peekMax());
+        System.out.println(test.pop());
+        System.out.println(test.top());
+    }
 }

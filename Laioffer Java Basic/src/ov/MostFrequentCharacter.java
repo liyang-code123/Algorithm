@@ -1,8 +1,11 @@
+package ov;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+// HighSpot
 public class MostFrequentCharacter {
     public Character mostFrequent(String input) {
         if (input == null || input.length() == 0) {

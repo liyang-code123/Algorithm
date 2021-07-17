@@ -1,3 +1,6 @@
+package ov;
+
+// MarkLogic
 public class MaxSubArray {
     public int maxSubarray(int[] array) {
         if (array == null || array.length == 0) {

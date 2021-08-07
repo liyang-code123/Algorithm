@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class FindLeavesOfBinaryTree {
+// FindLeavesOfBinaryTree
+public class Leetcode366 {
     public class TreeNode {
         TreeNode left;
         TreeNode right;

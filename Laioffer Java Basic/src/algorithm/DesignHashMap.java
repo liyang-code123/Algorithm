@@ -32,12 +32,78 @@ import java.util.Arrays;
 //}
 
 // Solution 2: array + linkedlist
+//public class DesignHashMap {
+//    final ListNode[] nodes;
+//    class ListNode {
+//        int key;
+//        int val;
+//        ListNode next;
+//
+//        public ListNode(int key, int val) {
+//            this.key = key;
+//            this.val = val;
+//        }
+//    }
+//
+//    public DesignHashMap() {
+//        nodes = new ListNode[1000000];
+//    }
+//
+//    public void put(int key, int value) {
+//        int i = hash(key);
+//        if (nodes[i] == null) {
+//            nodes[i] = new ListNode(-1, -1);
+//        }
+//        ListNode prev = find(nodes[i], key);
+//        if (prev.next == null) {
+//            prev.next = new ListNode(key, value);
+//        } else {
+//            prev.next.val = value;
+//        }
+//    }
+//
+//    public int get(int key) {
+//        int i = hash(key);
+//        if (nodes[i] == null) {
+//            return -1;
+//        }
+//        ListNode node = find(nodes[i], key);
+//        return node.next == null ? -1 : node.next.val;
+//    }
+//
+//    public void remove(int key) {
+//        int i = hash(key);
+//        if (nodes[i] == null) {
+//            return;
+//        }
+//        ListNode prev = find (nodes[i], key);
+//        if (prev.next == null) {
+//            return;
+//        }
+//        prev.next = prev.next.next;
+//    }
+//
+//    public int hash(int key) {
+//        return Integer.hashCode(key) % nodes.length;
+//    }
+//
+//    public ListNode find(ListNode bucket, int key) {
+//        ListNode node = bucket;
+//        ListNode prev = null;
+//        while (node != null || node.key != key) {
+//            prev = node;
+//            node = node.next;
+//        }
+//        return prev;
+//    }
+//}
+//
+
 public class DesignHashMap {
-    final ListNode[] nodes;
     class ListNode {
+        ListNode next;
         int key;
         int val;
-        ListNode next;
 
         public ListNode(int key, int val) {
             this.key = key;
@@ -45,56 +111,56 @@ public class DesignHashMap {
         }
     }
 
-    public DesignHashMap() {
-        nodes = new ListNode[1000000];
-    }
+    ListNode[] map = new ListNode[1000001];
+    int capacity;
 
-    public void put(int key, int value) {
-        int i = hash(key);
-        if (nodes[i] == null) {
-            nodes[i] = new ListNode(-1, -1);
-        }
-        ListNode prev = find(nodes[i], key);
-        if (prev.next == null) {
-            prev.next = new ListNode(key, value);
-        } else {
-            prev.next.val = value;
-        }
+    public DesignHashMap(int capacity) {
+        this.capacity = capacity;
     }
 
     public int get(int key) {
-        int i = hash(key);
-        if (nodes[i] == null) {
+        int index = hash(key);
+        if (map[index] == null) {
             return -1;
         }
-        ListNode node = find(nodes[i], key);
-        return node.next == null ? -1 : node.next.val;
+        ListNode pre = findNode(map[index], key);
+        return pre.next == null ? -1 : pre.next.val;
+    }
+
+    public void put(int key, int val) {
+        int index = hash(key);
+        if (map[index] == null) {
+            ListNode newNode = new ListNode(-1, -1);
+        }
+        ListNode pre = findNode(map[index], key);
+        if (pre.next == null) {
+            pre.next = new ListNode(key, val);
+        }
+        pre.next.val = val;
     }
 
     public void remove(int key) {
-        int i = hash(key);
-        if (nodes[i] == null) {
+        int index = hash(key);
+        if (map[index] == null) {
             return;
         }
-        ListNode prev = find (nodes[i], key);
-        if (prev.next == null) {
+        ListNode pre = findNode(map[index], key);
+        if (pre.next == null) {
             return;
         }
-        prev.next = prev.next.next;
+        pre.next = pre.next.next;
     }
 
-    public int hash(int key) {
-        return Integer.hashCode(key) % nodes.length;
+    private int hash(int key) {
+        return Integer.hashCode(key) % map.length;
     }
 
-    public ListNode find(ListNode bucket, int key) {
-        ListNode node = bucket;
-        ListNode prev = null;
-        while (node != null || node.key != key) {
-            prev = node;
+    private ListNode findNode(ListNode node, int key) {
+        ListNode pre = null;
+        while (node != null && node.key != key) {
+            pre = node;
             node = node.next;
         }
-        return prev;
+        return pre;
     }
 }
-

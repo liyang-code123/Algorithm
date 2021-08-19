@@ -1,2 +1,2 @@
-public class BinarySearch ß{
+public class BinarySearch{
 }

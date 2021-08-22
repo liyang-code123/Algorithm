@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Algorithm" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Interview/apex-project" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Laioffer Java Basic/src/ood/vendingmachine3" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Laioffer Java Basic/src/ood/vendingmachine4-interview" vcs="Git" />

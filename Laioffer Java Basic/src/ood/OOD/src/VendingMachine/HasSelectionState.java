@@ -1,6 +1,6 @@
 package ood.OOD.src.VendingMachine;
 
-import sun.management.snmp.jvminstr.JvmMemGCEntryImpl;
+//import sun.management.snmp.jvminstr.JvmMemGCEntryImpl;
 
 public class HasSelectionState extends AbstractState{
     public HasSelectionState(VendingMachine vendingMachine) {

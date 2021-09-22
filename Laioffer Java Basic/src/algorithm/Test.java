@@ -1,7 +1,13 @@
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class Test {
+    public Integer[] test(Integer[] array) {
+        Arrays.sort(array, (a, b) -> b - a);
+        return array;
+    }
     public static void main(String[] args) {
         List<List<Integer>> list = new ArrayList<>();
         List<Integer> a = new ArrayList<>();

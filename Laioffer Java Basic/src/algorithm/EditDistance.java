@@ -1,5 +1,5 @@
 public class EditDistance {
-    // another solution is to use only one row and one column to save space! 
+    // another solution is to use only one row and one column to save space!
     public int editDistance(String s, String t) {
         if (s == null || t == null || s.length() == 0 || t.length() == 0) {
             return 0;
